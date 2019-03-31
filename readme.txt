@@ -10,3 +10,12 @@ To run the project we used:
 mvn spring-boot:run 
 
 I am trying to commit this project steps in different branches.
+Git commands used:
+1. git init
+2. git checkout -b studyTopic_1.0
+3. git add .
+4. git commit -m "Springboot web mvc primary project structure"
+5. git remote add origin https://github.com/kalyanbhadra/study-topics.git
+6. git push -u origin studyTopic_1.0
+
+You don't have to create branch in the github, the last command will create one for you.
