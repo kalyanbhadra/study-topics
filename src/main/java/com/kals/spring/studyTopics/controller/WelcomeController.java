@@ -1,4 +1,4 @@
-package com.kals.spring.studyTopics;
+package com.kals.spring.studyTopics.controller;
 
 import java.util.Map;
 

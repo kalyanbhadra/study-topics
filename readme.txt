@@ -19,3 +19,13 @@ Git commands used:
 6. git push -u origin studyTopic_1.0
 
 You don't have to create branch in the github, the last command will create one for you.
+
+
+Part 2
+=======================================
+In part 2, I added JPA functionality to this project. I created a table called Topic, the script is in db.txt.
+This table contains topic information. 
+Changes has been done to display the list of topics in a page called topics.jsp. The url to request this page is:
+http://localhost:8080/topics
+
+These changes will be commited into different branch studyTopic_2.0

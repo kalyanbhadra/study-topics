@@ -1,0 +1,9 @@
+CREATE TABLE `sys`.`topic` (
+  `id` INT NOT NULL,
+  `description` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+  
+  
+INSERT INTO `sys`.`topic`(`id`,`description`)VALUES(1,'Java Fundamentals');
+INSERT INTO `sys`.`topic`(`id`,`description`)VALUES(2,'Databases');
+INSERT INTO `sys`.`topic`(`id`,`description`)VALUES(3,'Microservices');
