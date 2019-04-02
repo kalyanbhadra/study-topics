@@ -29,3 +29,9 @@ Changes has been done to display the list of topics in a page called topics.jsp.
 http://localhost:8080/topics
 
 These changes will be commited into different branch studyTopic_2.0
+
+
+Part 3
+======================================
+In part 3, codes added to create topic in the DB.
+Also added hyperlink to the homepage.

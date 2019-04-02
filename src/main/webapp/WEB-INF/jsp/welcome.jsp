@@ -41,6 +41,10 @@
 
 	</div>
 	
+	<div class="container">
+		<a href="<%=request.getContextPath()%>/topics">Topics</a>
+	</div>
+	
 	<script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>

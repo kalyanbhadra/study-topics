@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
 <c:url value="/css/main.css" var="jstlCss" />
 <link href="${jstlCss}" rel="stylesheet" />
+<script type="text/javascript" src="/WEB-INF/js/app.js"></script>
 <title>Insert title here</title>
 </head>
 
@@ -22,7 +23,7 @@
 		<table class="table table-striped table-hover table-condensed table-bordered">
 			<tr>
 				<th>Id</th>
-				<th>Name</th>
+				<th>Description</th>
 			</tr>
 			<c:forEach var="topic" items="${topics}">
 				<tr>
@@ -31,6 +32,22 @@
 				</tr>
 			</c:forEach>
 		</table>
+	</div>
+</div>
+<div class="container">
+	<header>
+		<h1>Add new topic</h1>
+	</header>
+	<div class="form">
+    	<form action="addTopic" method="post" onsubmit="return validate()">
+			<table class="table table-condensed table-bordered">
+				<tr>
+					<td>Description: </td>
+					<td><input id="description" name="description"></td>
+	          		<td><input type="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
 	</div>
 </div>
 
