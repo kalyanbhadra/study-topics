@@ -1,4 +1,4 @@
-Part 1
+Part 1 - studyTopic_1.0
 =======================================
 This project followed instruction from below link:
 https://www.mkyong.com/spring-boot/spring-boot-hello-world-example-jsp/
@@ -21,7 +21,7 @@ Git commands used:
 You don't have to create branch in the github, the last command will create one for you.
 
 
-Part 2
+Part 2 - studyTopic_2.0
 =======================================
 In part 2, I added JPA functionality to this project. I created a table called Topic, the script is in db.txt.
 This table contains topic information. 
@@ -31,7 +31,14 @@ http://localhost:8080/topics
 These changes will be commited into different branch studyTopic_2.0
 
 
-Part 3
+Part 3 - studyTopic_2.0
 ======================================
 In part 3, codes added to create topic in the DB.
 Also added hyperlink to the homepage.
+
+
+Part 4 - studyTopic_3.0
+======================================
+Based on: https://hellokoding.com/registration-and-login-example-with-spring-security-spring-boot-spring-data-jpa-hsql-jsp/
+Spring security module is added to the project for Authentication. User can register and login using their credentials.
+Form validation is another thing that is also introduced.
